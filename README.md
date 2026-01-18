@@ -20,23 +20,23 @@ Imbalance was 0:763 and 1:9 so we used RandomUnderSampler to make 0:9 1:9
 ## Results
   | Model | Sampling Technique | Accuracy (%) |
 |------|-------------------|--------------|
-| M1 | Sampling1 | 0.00 |
-| M2 | Sampling2 | 83.33 |
-| M3 | Sampling3 | 16.67 |
-| M4 | Sampling4 | 16.67 |
-| M5 | Sampling5 | 16.67 |
-| M1 | Sampling1 | 66.67 |
-| M2 | Sampling2 | 66.67 |
-| M3 | Sampling3 | 33.33 |
-| M4 | Sampling4 | 16.67 |
-| M5 | Sampling5 | 16.67 |
-| M1 | Sampling1 | 66.67 |
-| M2 | Sampling2 | 66.67 |
-| M3 | Sampling3 | 16.67 |
-| M4 | Sampling4 | 16.67 |
-| M5 | Sampling5 | 16.67 |
-| M1 | Sampling1 | 0.00 |
-| M2 | Sampling2 | 83.33 |
-| M3 | Sampling3 | 50.00 |
-| M4 | Sampling4 | 16.67 |
-| M5 | Sampling5 | 16.67 |
+| M1 | Sampling1 (RandomUnderSampler) | 0.00 |
+| M2 | Sampling1 (RandomUnderSampler) | 50.00 |
+| M3 | Sampling1 (RandomUnderSampler) | 16.67 |
+| M4 | Sampling1 (RandomUnderSampler) | 16.67 |
+| M5 | Sampling1 (RandomUnderSampler) | 16.67 |
+| M1 | Sampling2 (RandomOverSampler) | 66.67 |
+| M2 | Sampling2 (RandomOverSampler) | 66.67 |
+| M3 | Sampling2 (RandomOverSampler) | 66.67 |
+| M4 | Sampling2 (RandomOverSampler) | 16.67 |
+| M5 | Sampling2 (RandomOverSampler) | 16.67 |
+| M1 | Sampling3 (SMOTE) | 66.67 |
+| M2 | Sampling3 (SMOTE) | 66.67 |
+| M3 | Sampling3 (SMOTE) | 16.67 |
+| M4 | Sampling3 (SMOTE) | 16.67 |
+| M5 | Sampling3 (SMOTE) | 16.67 |
+| M1 | Sampling4 (NearMiss) | 0.00 |
+| M2 | Sampling4 (NearMiss) | 83.33 |
+| M3 | Sampling4 (NearMiss) | 16.67 |
+| M4 | Sampling4 (NearMiss) | 16.67 |
+| M5 | Sampling4 (NearMiss) | 16.67 |
